@@ -1,0 +1,149 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+/* headings */
+h1,h2,h3,h4,h5{
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    color:#93C6E7;
+}
+a.main-head{
+    color:#93C6E7;
+    font-family: 'Sacramento', cursive;
+}
+.title-heading{
+    font-size: 3rem; 
+    text-align: left;
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    font-size: 3rem;
+}
+p{
+    color:#8f8f8f;
+}
+
+/* backgrounds */
+.bg-colored{
+    background-color: #060047;
+    color:white;
+}
+.bg-white{
+    background-color: white;
+}
+
+/* containers */
+.container-fluid{
+    padding: 5% 15% 7%;
+}
+/* navbar  */
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+}
+.balloon{
+    width:25%;
+    transform: rotate(25deg);
+    position:absolute;
+    right:10%;
+}
+#love-msg{
+    padding: 5% 5%;
+    background-color: #ffffff;
+    position:relative;
+}
+.love-icon{
+    color:#865DFF;
+    font-size:3rem;
+}
+.love-icon:hover{
+    color:#93C6E7;
+}
+
+
+
+/* memories*/
+#memories{
+    color:#ffffff;
+}
+
+.our-image{
+    /* border-radius: 100%; */
+    width:250px;
+    height:250px;
+    margin: 20px;
+    border-radius: 50%;
+}
+#carouselExample{
+    padding: 5% 15%;
+}
+
+/* section-pricing  */
+
+#messages{
+    padding:5%;
+    
+}
+
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .iphone{
+        position:static;
+        transform: rotate(0);
+    }
+}
+
+.love-container{
+    position:relative;
+}
+.love-row{
+    width:50%;
+    margin:100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.hug-img{
+    width:200px;
+    height:200px;
+    float:left;
+    margin-right: 30px;
+}
+.kiss-img{
+    width:200px;
+    height:200px;
+    float:right;
+    margin-right: 30px;
+}
+.letter-img{
+    width:200px;
+    height:200px;
+    float:left;
+    margin-right: 30px;
+}
+.msg-img{
+    width:200px;
+    height:200px;
+    float:right;
+    margin-right: 30px;
+}
+.propose-img{
+    width:200px;
+    height:200px;
+    float:right;
+    margin-right: 30px;
+}
